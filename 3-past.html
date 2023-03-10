@@ -36,7 +36,7 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
 
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" aria-current="page" href="./1-index.html">Home</a>
                         </li>
 
                         <li class="nav-item">
@@ -44,7 +44,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="./3-past.html">Past Event</a>
+                            <a class="nav-link active" href="#">Past Event</a>
                         </li>
 
                         <li class="nav-item">
@@ -60,27 +60,68 @@
         </nav>
     </header>
 
+
+
+    <div class="d-flex justify-content-between align-items-center barra">
+        <a class="arrow" href="./2-upcoming.html"> <!-- RECORDAR CAMBIAR DIRECCIONES -->
+            <span class="material-symbols-outlined">
+                chevron_left
+            </span>
+        </a>
+
+        <h3>Past Event</h3>
+
+        <a class="arrow" href="./4-stats.html">
+            <span class="material-symbols-outlined">
+                chevron_right
+            </span>
+        </a>
+    </div>
+
+
     <main>
-        <div class="cardcinema" style="width: 18rem;">
-            <img src="./img/Cinema.jpg" class="card-img" alt="peliculas">
+        <form class="d-flex justify-content-between flex-wrap busqueda">
+            <div class="categorias">
+                <label>
+                    <input type="checkbox" name="cinema">
+                    Cinemas
+                </label>
 
-            <div class="card-body">
-                <h5 class="card-title">Cinemas</h5>
+                <label>
+                    <input type="checkbox" name="costume">
+                    Costume Party
+                </label>
 
-                <p class="card-text">Tenes mucho tiempo libre? no sabes que hacer? venite a nuestros
-                    conciertos de musica. Entra para más información.</p>
+                <label>
+                    <input type="checkbox" name="food">
+                    Food Fair
+                </label>
 
-                <div class="botontar">
-                    <p>Precio: $x.xxx </p>
-                    <a href="./6-cinema.html" class="btn botontarjeta">Info</a>
-                </div>
+                <label>
+                    <input type="checkbox" name="marathon">
+                    Marathon
+                </label>
 
+                <label>
+                    <input type="checkbox" name="music">
+                    Music Concert
+                </label>
+
+                <label>
+                    <input type="checkbox" name="museum">
+                    Museum Tour
+                </label>
             </div>
-        </div>
+
+            <div class="d-flex justify-content-end" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn botonlupa" type="submit">Search</button>
+            </div>
+        </form>
+
+        <section class="d-flex justify-content-between tarjetas" id="card-past"></section>
     </main>
-
     <script type="text/javascript" src="nav.js"></script>
-
 
     <footer>
         <div class="redes">
@@ -94,10 +135,15 @@
         </div>
     </footer>
 
+
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
 </body>
-
+<script type="text/javascript" src="past.js"></script>
 
 </html>

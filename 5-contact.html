@@ -36,7 +36,7 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
 
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" aria-current="page" href="./1-index.html">Home</a>
                         </li>
 
                         <li class="nav-item">
@@ -52,7 +52,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="./5-contact.html">Contact</a>
+                            <a class="nav-link active" href="#">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -60,26 +60,43 @@
         </nav>
     </header>
 
+
+
+    <div class="d-flex justify-content-between align-items-center barra">
+        <a class="arrow" href="./4-stats.html"> <!-- RECORDAR CAMBIAR DIRECCIONES -->
+            <span class="material-symbols-outlined">
+                chevron_left
+            </span>
+        </a>
+
+        <h3>Contact</h3>
+
+        <a class="arrow" href="./1-index.html">
+            <span class="material-symbols-outlined">
+                chevron_right
+            </span>
+        </a>
+    </div>
+
+
     <main>
-        <div class="cardcinema" style="width: 18rem;">
-            <img src="./img/Cinema.jpg" class="card-img" alt="peliculas">
+        <form action="./show_data.html" method="get">
+            <div class="formulario">
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="nombre" placeholder="escribe aquí tu nombre">
 
-            <div class="card-body">
-                <h5 class="card-title">Cinemas</h5>
+                <label for="email">Email: </label>
+                <input type="text" id="email" name="correo" placeholder="escribe aquí tu email">
 
-                <p class="card-text">Tenes mucho tiempo libre? no sabes que hacer? venite a nuestros
-                    conciertos de musica. Entra para más información.</p>
+                <label for="mensagge">Mensagge: </label>
+                <input type="text" id="mensagge" name="mensaje" placeholder="escribe aquí tu mensaje">
 
-                <div class="botontar">
-                    <p>Precio: $x.xxx </p>
-                    <a href="./6-cinema.html" class="btn botontarjeta">Info</a>
-                </div>
-
+                <input type="submit">
             </div>
-        </div>
+        </form>
     </main>
-
     <script type="text/javascript" src="nav.js"></script>
+
 
 
     <footer>
@@ -94,10 +111,14 @@
         </div>
     </footer>
 
+
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
 </body>
-
 
 </html>

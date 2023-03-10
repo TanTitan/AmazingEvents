@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+} 
+
+/*ENCABEZADO
+.header{
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+.header .logo{
+    cursor:pointer;
+    margin-right: auto ;
+}
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+ .header .barranav{
+    list-style:none;    
+ }
+ .header .barranav li{
+    display:inline-block;
+    padding: 0 20px;
+ }
+ .header .barranav li:hover{
+    transform: scale(1.1);
+ }
+ .header .barranav a{
+    font-size: 700;
+    color:#d90368;
+    /* text-decoration: none; 
+ }
+ .header .barranav li a:hover{
+    color:rgb(0, 0, 0)
+ }
+.header .btn button{
+    margin-left: 20px;
+    font-weight: 700;
+    color:#ffffff;
+    padding: 9px 25px;
+    background-color: #d90368;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.header .btn button:hover{
+    background-color: #d35992;
+    color: black;
+    transform: scale (1.1);
+}
+
+@media screen and (max-width: 800px){
+     .barranav, .btn(
+        display none;
+     )
+    
+}
+/*NAVJS
+.header a{
+    text-decoration: none;
+}
+.header .overlay{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: #d903676b;
+    overflow: hidden;
+    transition: all 0.3s;  
+}
+.header .overlay .overlay-content{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header .overlay a{
+    padding: 15px;
+    font-size: 35px;
+    display: block;
+    font-weight: 700;
+    color:black;
+}
+.header .overlay a:hover,
+.header .overlay a:focus{
+    color:yellow;
+}
+header .overlay .close{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 65px;
+}
+@media screen and (max-height :450px){
+    .header .overlay a(
+        font-size: 20px;
+    )
+    .header .overlay .close(
+        font-size: 20px;
+        top: 15px;
+        right: 35px;
+    )
+}
+
+/* }
+. logo {
+    display:flex;
+}
+nav {
+    display: flex;
+} */
+
+
+/*CUERPO DE PÁGINA
+body {
+    background-color:#d90368;
+}
+
+
+
+
+/*PIE DE PÁGINA
+footer{
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 150px;
+/* .pie-pag{
+     width: 100%;
+     background-color: deeppink;
+     max-width: 1200px;
+     margin: auto;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     justify-content: center;
+     align-items: center;
+}
+
+.pie-pag .box .redsocial{
+    display:inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color:aliceblue;
+    margin-block-start: 10px;
+    background-color: pink;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pag .box .redsocial a:hover{
+    color:darkmagenta;
+} */
+

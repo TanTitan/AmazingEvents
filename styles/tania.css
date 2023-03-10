@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.barra {
+    background-color: #d90368;
+}
+
+h3 {
+    color: aliceblue;
+}
+
+.arrow span {
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.categorias label {
+    padding: 10px;
+    margin: 2px;
+}
+
+.busqueda {
+    padding: 10px;
+}
+
+.busqueda div .botonlupa {
+    background-color: #d90368;
+    color: aliceblue;
+}
+
+.tarjetas {
+    padding: 100px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.tarjetas div img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.botontar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botontarjeta {
+    background-color: #d90368;
+    color: aliceblue;
+}
+
+
+
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    bottom: 0;
+    width: auto;
+    padding: 40px;
+    background-color: #d90368;
+    color: aliceblue;
+
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    bottom: 0;
+    width: 100%;
+    padding: 0px;
+    font-size: 200px;
+}
+
+.autora {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* TABLA DE STATS */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.tablastats {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+.tab {
+    padding: 1px;
+    border: #00000065 2px solid;
+    width: auto;
+    background-position: center;
+}
+
+.tab thead {
+    background-color: #d90367;
+    color: rgb(255, 255, 255);
+    padding: 1px;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tab th {}
+
+.tab tbody {
+    background-color: ;
+    padding: 1px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+/* FORMULARIO DE CONTACTO */
+.formulario {
+    color: aliceblue;
+    background-color: #d90367;
+    border: rgb(0, 0, 0) 2px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.formulario label {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.formulario input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+/*CARD DE DETALLES*/

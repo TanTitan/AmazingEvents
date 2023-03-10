@@ -36,7 +36,7 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
 
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" aria-current="page" href="./1-index.html">Home</a>
                         </li>
 
                         <li class="nav-item">
@@ -48,7 +48,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="./4-stats.html">Stats</a>
+                            <a class="nav-link active" href="#">Stats</a>
                         </li>
 
                         <li class="nav-item">
@@ -60,26 +60,78 @@
         </nav>
     </header>
 
+
+
+    <div class="d-flex justify-content-between align-items-center barra">
+        <a class="arrow" href="./3-past.html"> <!-- RECORDAR CAMBIAR DIRECCIONES -->
+            <span class="material-symbols-outlined">
+                chevron_left
+            </span>
+        </a>
+
+        <h3>Stats</h3>
+
+        <a class="arrow" href="./5-contact.html">
+            <span class="material-symbols-outlined">
+                chevron_right
+            </span>
+        </a>
+    </div>
+
+
     <main>
-        <div class="cardcinema" style="width: 18rem;">
-            <img src="./img/Cinema.jpg" class="card-img" alt="peliculas">
+        <div class="tablastats">
+            <table class="tab">
+                <thead class="d-flex justify-content-center">
+                    <tr>
+                        <th>Events statistics</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Events with the highest percentage of attendance</td>
+                        <td>Events with the lowest percentage of attendance</td>
+                        <td>Events with larger capacity</td>
+                        <td></td>
+                    </tr>
+                </tbody>
 
-            <div class="card-body">
-                <h5 class="card-title">Cinemas</h5>
 
-                <p class="card-text">Tenes mucho tiempo libre? no sabes que hacer? venite a nuestros
-                    conciertos de musica. Entra para más información.</p>
+                <thead>
+                    <tr>
+                        <th scope="col">Upcoming events statistics by categoy</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Categories</td>
+                        <td>Revenues</td>
+                        <td>Percentage of attendance</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
 
-                <div class="botontar">
-                    <p>Precio: $x.xxx </p>
-                    <a href="./6-cinema.html" class="btn botontarjeta">Info</a>
-                </div>
 
-            </div>
+                <thead>
+                    <tr>
+                        <th>Past events statistics by category</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Categories</td>
+                        <td>Revenues</td>
+                        <td>Percentage of attendance</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </main>
-
     <script type="text/javascript" src="nav.js"></script>
+
 
 
     <footer>
@@ -94,10 +146,14 @@
         </div>
     </footer>
 
+
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
 </body>
-
 
 </html>

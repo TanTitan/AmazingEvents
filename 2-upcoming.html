@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMAZING EVENTS</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/ff3d035e79.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/icons.css">
+    <link rel="stylesheet" href="styles/tania.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="#">
+                    <img src="./img/logoAE.png" alt="logo" width="150px">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- collapse navbar-collapse CONSULTAR FUNCIÓN-->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
+
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./1-index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Upcoming Event</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./3-past.html">Past Event</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./4-stats.html">Stats</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./5-contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="d-flex justify-content-between align-items-center barra">
+        <a class="arrow" href="./1-index.html">
+            <span class="material-symbols-outlined">
+                chevron_left
+            </span>
+        </a>
+
+        <h3>Upcoming Event</h3>
+
+        <a class="arrow" href="./3-past.html">
+            <span class="material-symbols-outlined">
+                chevron_right
+            </span>
+        </a>
+    </div>
+
+
+    <main>
+        <form class="d-flex justify-content-between flex-wrap busqueda">
+            <div class="categorias">
+                <label>
+                    <input type="checkbox" name="cinema">
+                    Cinemas
+                </label>
+
+                <label>
+                    <input type="checkbox" name="costume">
+                    Costume Party
+                </label>
+
+                <label>
+                    <input type="checkbox" name="food">
+                    Food Fair
+                </label>
+
+                <label>
+                    <input type="checkbox" name="marathon">
+                    Marathon
+                </label>
+
+                <label>
+                    <input type="checkbox" name="music">
+                    Music Concert
+                </label>
+
+                <label>
+                    <input type="checkbox" name="museum">
+                    Museum Tour
+                </label>
+            </div>
+
+            <div class="d-flex justify-content-end" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn botonlupa" type="submit">Search</button>
+            </div>
+        </form>
+
+        <section class="d-flex justify-content-between tarjetas" id="card-upcomig">
+
+
+
+
+            <!-- <section class="d-flex justify-content-between tarjetas">
+            <div class="cardcinema" style="width: 18rem;">
+                <img src="./img/Cinema.jpg" class="card-img" alt="peliculas">
+
+                <div class="card-body">
+                    <h5 class="card-title">Cinemas</h5>
+
+                    <p class="card-text">Tenes mucho tiempo libre? no sabes que hacer? venite a nuestros
+                        conciertos de musica. Entra para más información.</p>
+
+                    <div class="botontar">
+                        <p>Precio: $x.xxx </p>
+                        <a href="./6-cinema.html" class="btn botontarjeta">Info</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="cardmusic" style="width: 18rem;">
+                <img src="./img/Music_Concert.jpg" class="card-img" alt="musica">
+
+                <div class="card-body">
+                    <h5 class="card-title">Music Concert</h5>
+
+                    <p class="card-text">Tenes mucho tiempo libre? no sabes que hacer? venite a nuestros
+                        conciertos de musica. Entra para más información.</p>
+
+                    <div class="botontar">
+                        <p>Precio: $1.500 </p>
+                        <a href="./6-music.html" class="btn botontarjeta">Info</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="cardfood" style="width: 18rem;">
+                <img src="./img/Food_Fair.jpg" class="card-img" alt="comida">
+
+                <div class="card-body">
+                    <h5 class="card-title">Food Fair</h5>
+
+                    <p class="card-text">Tenes mucho tiempo libre? no sabes que hacer? venite a nuestros
+                        conciertos de musica. Entra para más información.</p>
+
+                    <div class="botontar">
+                        <p>Precio: $1.500 </p>
+                        <a href="./6-food.html" class="btn botontarjeta">Info</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="cardmuseum" style="width: 18rem;">
+                <img src="./img/Museum_Tour.jpg" class="card-img" alt="mmuseo">
+
+                <div class="card-body">
+                    <h5 class="card-title">Museum Tour</h5>
+
+                    <p class="card-text">Tenes mucho tiempo libre? no sabes que hacer? venite a nuestros
+                        conciertos de musica. Entra para más información.</p>
+
+                    <div class="botontar">
+                        <p>Precio: $1.500 </p>
+                        <a href="./6-museum.html" class="btn botontarjeta">Info</a>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+    <script type="text/javascript" src="nav.js"></script>
+
+
+
+
+
+    <footer>
+        <div class="redes">
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+        </div>
+        <div class="autora">
+            <small>&copy; 2023 <b>ByTaniAvila</b> - Todos los derechos reservados :)</small>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+<script type="text/javascript" src="upcom.js"></script>
+
+</html>
